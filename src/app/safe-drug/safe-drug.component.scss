@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+.back-button-container {
+    padding-top: 2em;
+}
+
+.back-button {
+    color: white;
+    padding: 0.5em;
+    background: darkred;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
